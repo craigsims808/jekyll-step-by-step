@@ -214,28 +214,6 @@ Go to [http://localhost:4000](http://localhost:4000) in your browser. You should
 
 ![Jekyll site running on port 4000](.gitbook/assets/jekyll-hello-world.png)
 
-{% hint style="info" %}
-If <mark style="color:yellow;">`jekyll server`</mark> fails with the following terminal output:
-
-<mark style="color:yellow;">`internal:C:/Ruby31x64/lib/ruby/3.1.0/rubygems/core_ext/kernel_require.rb:85:in require': cannot load such file -- webrick (LoadError)`</mark>
-
-Fix it in the terminal with <mark style="color:yellow;">`bundle add webrick`</mark> or append <mark style="color:yellow;">`gem "webrick"`</mark> to your <mark style="color:yellow;">`Gemfile`</mark>
-
-{% tabs %}
-{% tab title="Linux" %}
-```shell-session
-craigsims@cloudshell:~/jekyll$ bundle add webrick
-```
-{% endtab %}
-
-{% tab title="Windows" %}
-```shell
-C:\Users\craigsims\dev\jekyll> bundle add webrick
-```
-{% endtab %}
-{% endtabs %}
-{% endhint %}
-
 At this point, you might be thinking, "So what?". The only thing that happened was that Jekyll copied an HTML file from one place to another.
 
 Patience, young grasshopper, there's still much to learn!
